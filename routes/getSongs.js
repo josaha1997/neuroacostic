@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
 
   request.headers({
     "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
-    "x-rapidapi-key": "f19aa2d6e1msh75fe16c0daf2b83p12c791jsn5a776f423e8f",
+    "x-rapidapi-key": "",
     useQueryString: true,
   });
 
