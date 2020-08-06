@@ -21,7 +21,7 @@ function sendmail(receiver, Subject, Text) {
     service: "gmail",
     auth: {
       type: "OAuth2",
-      user: "internharman2020@gmail.com",
+      user: "",
       clientId: client_id,
       clientSecret: client_secret,
       refreshToken: mail_refresh_token,
@@ -30,7 +30,7 @@ function sendmail(receiver, Subject, Text) {
   });
 
   var mailOptions = {
-    from: "internharman2020@gmail.com",
+    from: "",
     to: receiver,
     subject: Subject,
     generateTextFromHTML: true,
